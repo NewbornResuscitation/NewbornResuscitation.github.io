@@ -7,6 +7,20 @@ h1 {
     text-decoration: underline;
   }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
