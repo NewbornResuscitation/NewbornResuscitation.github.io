@@ -1,6 +1,6 @@
 <!DOCTYPE html>
  
-<!-- Write your comments here -->
+<!-- Comments format -->
 
 <html>
     <head>
@@ -64,8 +64,26 @@
         <p> <img src="https://user-images.githubusercontent.com/77134434/104820010-c25e8100-57e6-11eb-8c29-00eff50dd528.png"> </p>
         
         <p> <b> After resuscitation <b> </p>
-          
+ 
+         
+         <!-- NAVIGATION BAR SCRIPT -->
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
         
     </body>
 </html>
