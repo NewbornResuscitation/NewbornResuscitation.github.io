@@ -1,12 +1,37 @@
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 300;
     font-family: Arial;
     margin-bottom: .3em;
     text-decoration: none;
+    text-align: left;
+    position:absolute;
+    left: 230px;
   }
+
+.nav1 {
+    text-align: right;
+    position:absolute;
+    right:230px;
+    top:140px;
+    font-size: 18px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
 
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -22,21 +47,22 @@ p {
 /* NAVIGATION BAR */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #D3D3D3;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar a {
-  float: left;
+  float: right;
   font-size: 16px;
-  color: white;
+  text-align:right;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .dropdown {
-  float: left;
+  float: right;;
   overflow: hidden;
 }
 
@@ -45,7 +71,7 @@ p {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -77,6 +103,28 @@ p {
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+
+  }
 
 .show {
   display: block;
