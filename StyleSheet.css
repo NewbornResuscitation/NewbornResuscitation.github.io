@@ -132,7 +132,7 @@ img {
     transform: translate(-50%, -50%);
     color: black;
     font-size: 50px;
-    text-shadow: -0.5px -0.5px 0 #FFFFFF, 0.5px -0.5px 0 #FFFFFF, -0.5px 0.5px 0 #FFFFFF, 0.5px 0.5px 0 #FFFFFF;
+    text-shadow: -0.7px -0.7px 0 #FFFFFF, 0.7px -0.7px 0 #FFFFFF, -0.7px 0.7px 0 #FFFFFF, 0.7px 0.7px 0 #FFFFFF;
 
   }
 
