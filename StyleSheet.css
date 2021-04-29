@@ -131,7 +131,7 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: #89CFF0;
     font-size: 50px;
     text-shadow: -0.7px -0.7px 0 #FFFFFF, 0.7px -0.7px 0 #FFFFFF, -0.7px 0.7px 0 #FFFFFF, 0.7px 0.7px 0 #FFFFFF;
 
